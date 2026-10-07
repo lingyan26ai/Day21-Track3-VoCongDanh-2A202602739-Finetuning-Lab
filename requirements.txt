@@ -10,7 +10,7 @@ torch>=2.6,<3
 transformers>=5.15,<6
 trl>=1.10,<2          # v1.x API: max_length (not max_seq_length), processing_class
                       # (not tokenizer), chunked_nll default since 1.7
-peft>=0.20,<1
+peft==0.21.1          # version recorded in the trained adapter's metadata
 accelerate>=1.14,<2
 datasets>=5,<6
 

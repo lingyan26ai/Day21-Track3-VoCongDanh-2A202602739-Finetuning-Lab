@@ -1,5 +1,9 @@
 # Day 21 — Fine-tuning LLMs · Lab (Track 3)
 
+**Bài nộp — Võ Công Danh · 2A202602739:** [Báo cáo](submission/REPORT.md) · [Reflection](submission/REFLECTION.md) · [Kết quả gốc](results/) · [Thông tin nộp bài](submission/LINKS.md).
+
+Nộp theo **Option C — code-only** trong rubric. Repo có mã nguồn, cấu hình thư viện và bằng chứng NB1–NB5. Adapter đã train và bản ZIP đầy đủ được giữ làm bản sao lưu trên máy cá nhân. Kết quả cổng model là FAILED vì regression giảm; báo cáo phân tích kết quả này.
+
 > **AICB-P2T3 · Ngày 21 · Chương 5 — Fine-tuning & An Toàn**
 > Đi kèm deck `day21-fine-tuning-llms-lora-qlora.tex` (140 trang · 25 module; bản gọn 72 trang).
 

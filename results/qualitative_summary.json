@@ -1,0 +1,70 @@
+{
+  "source": "qualitative_comparison.json",
+  "note": "Recomputed from supplemental predictions; does not replace original NB2/NB5 artifacts.",
+  "groups": {
+    "target": {
+      "n": 50,
+      "wins": 33,
+      "losses": 0,
+      "ties": 17,
+      "mean_scores": {
+        "baseline_b": 0.765,
+        "correct": 0.97
+      },
+      "fully_correct_tickets": {
+        "baseline_b": 13,
+        "correct": 44
+      },
+      "field_accuracy": {
+        "baseline_b": {
+          "intent": 0.54,
+          "urgency": 0.64,
+          "product": 1.0,
+          "sentiment": 0.88
+        },
+        "correct": {
+          "intent": 1.0,
+          "urgency": 0.88,
+          "product": 1.0,
+          "sentiment": 1.0
+        }
+      }
+    },
+    "regression": {
+      "n": 15,
+      "wins": 1,
+      "losses": 5,
+      "ties": 9,
+      "mean_scores": {
+        "baseline_b": 0.7911111111111111,
+        "correct": 0.611111111111111
+      }
+    }
+  },
+  "selected_examples": [
+    {
+      "group": "target",
+      "index_zero_based": 0
+    },
+    {
+      "group": "target",
+      "index_zero_based": 6
+    },
+    {
+      "group": "target",
+      "index_zero_based": 3
+    },
+    {
+      "group": "regression",
+      "index_zero_based": 9
+    },
+    {
+      "group": "regression",
+      "index_zero_based": 13
+    },
+    {
+      "group": "regression",
+      "index_zero_based": 3
+    }
+  ]
+}
